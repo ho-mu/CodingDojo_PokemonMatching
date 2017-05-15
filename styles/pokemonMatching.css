@@ -1,0 +1,94 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    outline: 2px solid red;
+}
+
+#container{
+    width: 1400px;
+    height: 900px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+form{
+    width: 1400px;
+    height: 130px;
+}
+
+form *{
+    display: inline-block;
+    vertical-align: top;
+}
+
+form select{
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+form input, #checkBoard{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+#gameBoard{
+    width: 900px;
+    height: 720px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card{
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.cardSize20{
+    width: 150px;
+    height: 150px;
+}
+
+.cardSize30{
+    width: 120px;
+    height: 120px;
+}
+
+.cardSize42{
+    width: 100px;
+    height: 100px;
+}
+
+.cardBack{
+    display: none;
+}
+
+#playerHands{
+    width: 374px;
+    height: 720px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.matches{
+    width: 350px;
+    margin: 10px;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.matches img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}

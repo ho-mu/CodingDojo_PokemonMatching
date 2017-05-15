@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon Matching</title>
+    <link rel="stylesheet" type="text/css" href="./styles/pokemonMatching.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/pokemonMatching.js"></script>
+</head>
+<body>
+    <div id='container'>
+        <form>
+            <p>How many people are playing?</p>
+            <select name='numberOfPlayers'>
+                <option value='2'>2 players</option>
+                <option value='3'>3 players</option>
+                <option value='4'>4 players</option>
+            </select>
+            <br><br>
+            <p>How many cards would you like to play with?</p>
+            <select name='numberOfCards'>
+                <option value='20'>20 cards</option>
+                <option value='30'>30 cards</option>
+                <option value='42'>42 cards</option>
+            </select>
+            <br><br>
+            <input type="submit" name="submit" value="Start Game">
+        </form>
+        <br>
+        <div id='gameBoard'>
+        </div>
+        <div id='playerHands'>
+            <h4>Player 1 Matches</h3>
+            <div class='matches'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+            </div>
+            <h4>Player 2 Matches</h3>
+            <div class='matches'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+            </div>
+            <h4>Player 3 Matches</h3>
+            <div class='matches'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+            </div>
+            <h4>Player 4 Matches</h3>
+            <div class='matches'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+                <img src='./images/bulbasaur.jpg' data-name='bulbasaur'>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
