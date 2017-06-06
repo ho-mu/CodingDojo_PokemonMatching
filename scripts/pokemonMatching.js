@@ -4,7 +4,7 @@ var totalCardCount = 0;
 function attach_handlers(){
     $('.card').unbind('click');
     $('.card').click(function(){
-       $(this).children().toggle();
+       $(this).children().toggle(); 
     });
 }
 
